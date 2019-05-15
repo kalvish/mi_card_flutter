@@ -46,16 +46,16 @@ class MyApp extends StatelessWidget {
                   title: Text('+94 777 123 456'),
                 ),
               ),
-              Card(
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
-                child: ListTile(
-                  leading: Icon(
-                    Icons.email,
-                    color: Colors.teal,
-                  ),
-                  title: Text('kxxxx@gmail.com'),
-                ),
-              ),
+//              Card(
+//                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+//                child: ListTile(
+//                  leading: Icon(
+//                    Icons.email,
+//                    color: Colors.teal,
+//                  ),
+//                  title: Text('kxxxx@gmail.com'),
+//                ),
+//              ),
 //              Container(
 //                padding: EdgeInsets.all(10.0),
 //                color: Colors.white,
@@ -80,30 +80,32 @@ class MyApp extends StatelessWidget {
 //                  ],
 //                ),
 //              ),
-//              Container(
-//                padding: EdgeInsets.all(10.0),
-//                color: Colors.white,
-//                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
-//                child: Row(
-//                  children: <Widget>[
-//                    Icon(
-//                      Icons.email,
-//                      color: Colors.teal,
-//                    ),
-//                    SizedBox(
-//                      width: 10.0,
-//                    ),
-//                    Text(
-//                      'kxxxx@gmail.com',
-//                      style: TextStyle(
-//                        color: Colors.teal.shade900,
-//                        fontFamily: 'SourceSansPro',
-//                        fontSize: 20.0,
-//                      ),
-//                    ),
-//                  ],
-//                ),
-//              ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+                child: Padding(
+                  padding: const EdgeInsets.all(15.0),
+                  child: Row(
+                    children: <Widget>[
+                      Icon(
+                        Icons.email,
+                        color: Colors.teal,
+                      ),
+                      SizedBox(
+                        width: 34.0,
+                      ),
+                      Text(
+                        'kxxxx@gmail.com',
+                        style: TextStyle(
+                          color: Colors.teal.shade900,
+                          fontFamily: 'SourceSansPro',
+                          fontSize: 20.0,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
             ],
           ),
         ),
